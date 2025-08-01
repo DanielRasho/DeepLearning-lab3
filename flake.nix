@@ -29,6 +29,7 @@
         p.torch
         p.torchvision
         p.torchsummary
+        p.pandas
       ]);
     in {
       default = pkgs.mkShell {
